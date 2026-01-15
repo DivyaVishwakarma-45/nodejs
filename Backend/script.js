@@ -5,14 +5,18 @@
 
 // console.log(process.argv);
 
-let argv = process.argv;
-for(let i = 2; i < argv.length ; i++){
-    console.log(argv[i]);
-}
-let math = require('./math');
+// let argv = process.argv;
+// for(let i = 2; i < argv.length ; i++){
+//     console.log(argv[i]);
+// }
+// let math = require('./math');
 
-// console.log(math);
-console.log(math.sum(4,5));
-console.log(math.sub(4,5));
-console.log(math.g);
-console.log(math.PI);
+// // console.log(math);
+// console.log(math.sum(4,5));
+// console.log(math.sub(4,5));
+// console.log(math.g);
+// console.log(math.PI);
+
+let info = require("/Users/lenovo/Desktop/apnacollage/nodejs/nodejs/Fruits");
+
+console.log(info);
